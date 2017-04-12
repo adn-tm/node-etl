@@ -1,0 +1,48 @@
+{
+  "name": "node-etl",
+  "version": "1.0.0",
+  "description": "Piped ETL streams",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "dependencies": {
+    "async": "^2.0.0-rc.5",
+    "fast-csv": "1.0.x",
+    "fs-extra": "^1.0.x",
+    "ftp": "^0.3.10",
+    "globe": "^0.3.0",
+    "iconv-lite": "0.4.x",
+    "mongoose": "^4.4.*",
+    "mongoose-temporary":"git://github.com:adn-tm/mongoose-temporary.git#master",
+    "object-path": "*",
+    "pipe-iterators": "git://github.com/adn-tm/pipe-iterators.git#master",
+    "sax-stream": "^1.2.3",
+    "stream-to-mongo-db": "^1.0.17",
+    "stream-worker": "0.x.x",
+    "through2": "*",
+    "underscore": "*",
+    "uuid": "^2.0.2",
+    "xmlify": "git://github.com/adn-tm/xmlify.git#master"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/adn-tm/node-etl.git"
+  },
+  "keywords": [
+    "ETL",
+    "pipes",
+    "streams",
+    "nodeJs"
+  ],
+  "author": "Dmitry ALeynikov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adn-tm/node-etl/issues"
+  },
+  "homepage": "https://github.com/adn-tm/node-etl#readme"
+}
